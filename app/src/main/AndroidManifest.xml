@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.applicationtest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" />
+
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"/>
+
+</manifest>
